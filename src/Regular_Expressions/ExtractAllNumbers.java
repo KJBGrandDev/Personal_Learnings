@@ -17,6 +17,7 @@ public class ExtractAllNumbers {
                 System.out.println(i);
             } else {
                 StringBuilder sb = new StringBuilder();
+
                 for(int j = 0; j < i.length(); j++){
                     if(String.valueOf(i.charAt(j)).matches(regEx)){
                         sb.append(i.charAt(j));
