@@ -25,6 +25,7 @@ public class ValidatePasswordStrength {
                 }
             }
         }
+
         boolean isValid = Arrays.stream(regExChecker).allMatch(s -> s);
 
         if(isValid){
