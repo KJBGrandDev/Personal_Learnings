@@ -17,6 +17,7 @@ public class ValidEmailAddress {
 
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
+
         String regEx = "^[A-Za-z.-_+]+@[A-Za-z]+\\.(com|org)$";
 
         while(true){
